@@ -17,9 +17,9 @@ const Navbar = ({openNav}:Props) => {
         <Image
           src={Logo}
           alt="logo"
-          height={70}
-          width={75}
-          className="w-20 rounded-full"
+          height={50}
+          width={50}
+          className="w-16 rounded-full"
         />
       </Link>
       <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 bg-gradient-to-r from-orange-50 via-emerald-50 to-purple-50">
