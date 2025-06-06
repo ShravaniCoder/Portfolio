@@ -24,9 +24,11 @@ const Header = () => {
       </h1>
 
       <p className="max-w-2xl mx-auto">
-        I specialize in transforming designs into functional, high-performing web
-        applications.
+        I specialize in building responsive and dynamic web applications using
+        modern technologies like React, Next.js, and Tailwind CSS, turning ideas
+        and designs into real, working websites.
       </p>
+
       <div className="flex items-center mt-4">
         <Link
           href={"/ShravaniChendwankar_Resume.pdf"}

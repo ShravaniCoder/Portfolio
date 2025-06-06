@@ -24,19 +24,19 @@ const Navbar = ({openNav}:Props) => {
       </Link>
       <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 bg-gradient-to-r from-orange-50 via-emerald-50 to-purple-50">
         <li>
-          <Link href="/">Home</Link>
+          <Link href="#home">Home</Link>
         </li>
         <li>
-          <Link href="/about">About</Link>
+          <Link href="#about">About</Link>
         </li>
         <li>
-          <Link href="/projects">Projects</Link>
+          <Link href="#projects">Projects</Link>
         </li>
         <li>
-          <Link href="/experience">Experience</Link>
+          <Link href="#experience">Experience</Link>
         </li>{" "}
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="#contact">Contact</Link>
         </li>
       </ul>
       <div className="flex items-center gap-4">
