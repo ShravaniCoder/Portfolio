@@ -21,27 +21,27 @@ const MobileNav = ({ showNav, closeNav }: Props) => {
           />
         </div>
         <li>
-          <Link onClick={closeNav} href="/">
+          <Link onClick={closeNav} href="#home">
             Home
           </Link>
         </li>
         <li>
-          <Link onClick={closeNav} href="/about">
+          <Link onClick={closeNav} href="#about">
             About
           </Link>
         </li>
         <li>
-          <Link onClick={closeNav} href="/projects">
+          <Link onClick={closeNav} href="#projects">
             Projects
           </Link>
         </li>
         <li>
-          <Link onClick={closeNav} href="/experience">
+          <Link onClick={closeNav} href="#experience">
             Experience
           </Link>
         </li>{" "}
         <li>
-          <Link onClick={closeNav} href="/contact">
+          <Link onClick={closeNav} href="#contact">
             Contact
           </Link>
         </li>
